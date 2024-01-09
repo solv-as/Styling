@@ -9,5 +9,21 @@ body{
 }
 
 header{
-  height:  5.5em;
+  height:  5.5em !important;
 }
+
+footer a{
+  color: white;
+  letter-spacing: 0;
+  font-family: Calibre, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/*
+Background color same as page
+Ul green? or Li Green?
+  Ul green -> li orange -> text black
+*/
