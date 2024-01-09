@@ -16,7 +16,7 @@ header{
   background-color: #636B61;
 }
 
-.select-service li{
+#select-service li{
   background-color: #e37d64;
   color: black;
 }
@@ -28,6 +28,8 @@ footer .link_menu ul li a{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  background-color: #636B61;
+
 }
 
 
