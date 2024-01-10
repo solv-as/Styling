@@ -35,10 +35,10 @@ footer .link_menu ul li a, #usermenu a{
 }
 
 #usermenu{
-  padding-right: 3px;
+  width: 96%;
 }
 header{
-  background-color: #636B61;
+  background-color: #636B61 !important;
   color: white;
  text-align: center;
 }
