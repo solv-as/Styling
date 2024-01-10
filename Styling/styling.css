@@ -21,7 +21,7 @@ header h1, header h1 a{
     line-height: 96%;
 }
 
-#powered_by a, #powered_by a span{
+#powered_by a, #site_name{
     color: white;
 }
 
@@ -46,6 +46,15 @@ footer .link_menu ul li a, #usermenu a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+
+#select-event{
+    background-color: #e37d64;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 20px;
 }
 
 #usermenu {
