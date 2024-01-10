@@ -22,8 +22,28 @@ header h1, header h1 a{
     color: white;
 }
 
-#powered_by a, #site_name{
-    color: white;
+@media (max-width: 516px){
+    header {
+        height: 5.5em !important;
+        background-color: #636B61 !important;
+        color: white;
+    }
+
+    header h1, header h1 a{
+        width: 96%;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        line-height: 96%;
+        color: white;
+    }
+
+}
+
+h2{
+    color:white !important;
+}
+#powered_by a, #site_name, body > header aside a:hover #site_name{
+    color: white !important;
 }
 
 .select-service {
