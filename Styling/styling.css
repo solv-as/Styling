@@ -9,6 +9,9 @@ body {
 
 header {
     height: 5.5em !important;
+    background-color: #636B61 !important;
+    color: white;
+    text-align: center;
 }
 
 header h1, header h1 a{
@@ -16,6 +19,10 @@ header h1, header h1 a{
     margin-bottom: 10px;
     font-family: sans-serif;
     line-height: 96%;
+}
+
+#powered_by a, #powered_by a span{
+    color: white;
 }
 
 .select-service {
@@ -44,16 +51,6 @@ footer .link_menu ul li a, #usermenu a {
 #usermenu {
     width: 96%;
     max-width: 69em;
-}
-
-header {
-    background-color: #F7EBE6 !important;
-    color: white;
-    text-align: center;
-}
-
-#powered_by {
-    color: white;
 }
 
 /*
