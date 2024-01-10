@@ -50,7 +50,7 @@ footer .link_menu ul li a, #usermenu a {
 }
 
 #select-event li{
-    background-color: #e37d64;
+    background-color: #e37d64 !important;
     color: black;
     text-align: center;
     border-radius: 5px;
