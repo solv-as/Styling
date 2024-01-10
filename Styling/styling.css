@@ -19,6 +19,7 @@ header h1, header h1 a{
     margin-bottom: 10px;
     font-family: sans-serif;
     line-height: 96%;
+    color: white;
 }
 
 #powered_by a, #site_name{
@@ -48,7 +49,7 @@ footer .link_menu ul li a, #usermenu a {
     font-weight: 400;
 }
 
-#select-event{
+#select-event li{
     background-color: #e37d64;
     color: black;
     text-align: center;
