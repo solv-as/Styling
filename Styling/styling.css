@@ -8,6 +8,10 @@ body {
     flex-direction: column
 }
 
+body > a{
+    color: white;
+}
+
 html, body {
     min-height: 100vh;
 }
@@ -144,10 +148,14 @@ footer .link_menu ul li a, #usermenu a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse
 }
 
 #step-up button, #step-up a{
     background: #e37d64;
+}
+.person, .person a{
+    color: white;
 }
 
 /*
