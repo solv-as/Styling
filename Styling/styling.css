@@ -1,16 +1,7 @@
-/*
-html{
-    height: 100%;
-}
-*/
-
 body {
     width: 100%;
     max-width: 100%;
     margin-bottom: 0;
-    /*
-    height: 100%;
-    */
     background-color: #636B61;
     color: white;
     display: flex;
@@ -19,7 +10,7 @@ body {
 }
 
 html, body {
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 body section {
@@ -116,9 +107,21 @@ footer .link_menu ul li a, #usermenu a {
 
 #services {
     text-align: center;
-
 }
 
+#new_booking{
+    width: 100%;
+}
+#new_booking textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
 /*
 Background color same as page
 Ul green? or Li Green?
