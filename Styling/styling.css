@@ -154,7 +154,7 @@ footer .link_menu ul li a, #usermenu a {
 #step-up button, #step-up a{
     background: #e37d64;
 }
-.person, .person a{
+.person, .person p a, #information > a{
     color: white;
 }
 
