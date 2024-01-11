@@ -136,10 +136,17 @@ footer .link_menu ul li a, #usermenu a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#step-up button, .button-previous {
+#step-up small{
+    color: white;
+}
+
+#step-up button {
     background: #e37d64;
     color: black;
     text-align: center;
@@ -152,7 +159,17 @@ footer .link_menu ul li a, #usermenu a {
 
 }
 
-#step-up button span {
+.button-previous{
+    background: #e37d64;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+}
+
+#step-up button span, .button-previous span {
     background: none;
     padding-right: 1px;
     padding-left: 1px;
