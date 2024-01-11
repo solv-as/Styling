@@ -159,7 +159,7 @@ footer .link_menu ul li a, #usermenu a {
     color: white;
 }
 
-@media (max-width: 516px) {
+@media (max-width: 600px) {
     header {
         height: 5.5em !important;
         background-color: #636B61 !important;
