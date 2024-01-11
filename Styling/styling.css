@@ -20,12 +20,13 @@ main {
     flex: 1;
     background: #636B61;
     border-radius: 5px;
+    width: fit-content;
 }
 
 header {
     height: 5.5em !important;
-    background-color: #636B61 !important;
-    color: white;
+    background-color: #F7EBE6 !important;
+    color: #636B61;
     text-align: center;
     min-width: 100%;
 }
@@ -35,7 +36,7 @@ header h1, header h1 a {
     margin-bottom: 10px;
     font-family: sans-serif;
     line-height: 96%;
-    color: white;
+    color:  #636B61;
     text-shadow: none;
 }
 
@@ -63,12 +64,13 @@ h2 {
 }
 
 footer .link_menu ul li a, #usermenu a {
-    color: white;
+    color: #636B61;
     letter-spacing: 0;
     font-family: Calibre, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    background: #636B61;
 }
 
 #select-event {
