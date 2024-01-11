@@ -116,6 +116,17 @@ footer .link_menu ul li a, #usermenu a {
     float: none;
     width: 100%;
 }
+
+#information fieldset label{
+    clear: both;
+    width: 100%;
+
+}
+
+#information{
+    width: 50%;
+}
+
 #booking_notes {
     width: 100%;
     height: 150px;
