@@ -108,27 +108,27 @@ footer .link_menu ul li a, #usermenu a {
     text-align: center;
 }
 
-#information fieldset{
+#information fieldset {
     max-width: 100%;
 }
 
-#information fieldset label input{
+#information fieldset label input {
     float: none;
     width: 100%;
 }
 
-#information fieldset label{
+#information fieldset label {
     clear: both;
     width: 100%;
 
 }
 
-#information{
+#information {
     width: 50%;
 }
 
 #booking_notes {
-    width: 100%;
+    width: 100% !important;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -136,7 +136,16 @@ footer .link_menu ul li a, #usermenu a {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+    clear: both;
+    float: none;
 }
+
+#step-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*
 Background color same as page
