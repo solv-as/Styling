@@ -390,12 +390,9 @@ footer .link_menu ul li a, #usermenu a {
 }
 
 #booking_notes {
-    /*
     width: 100% !important;
-    */
     height: 150px;
     padding: 12px 20px;
-    box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
