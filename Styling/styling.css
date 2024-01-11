@@ -1,3 +1,4 @@
+/*
 body {
     width: 100%;
     max-width: 100%;
@@ -241,10 +242,16 @@ small, label small {
 
 @media screen and  (min-width: 495px) {
     #select-event {
-        max-width: 460px;
+        max-width: 600px;
     }
 }
 
+@media screen and  (max-width: 495px) {
+    #select-event {
+        max-width: 600px;
+    }
+}
+*/
 
 /*
 Background color same as page
@@ -259,7 +266,6 @@ Ul green? or Li Green?
 */
 
 
-/*
 body {
     width: 100%;
     max-width: 100%;
@@ -484,7 +490,7 @@ small, label small {
 }
 
 
-!*
+/*
 Background color same as page
 Ul green? or Li Green?
   Body green -> li orange -> text black
@@ -494,4 +500,4 @@ Ul green? or Li Green?
   Body beige #F7EBE6 -> ul green #636B61 -> li orange -> text black
 
 
-*!*/
+*/
