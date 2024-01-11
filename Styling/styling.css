@@ -43,6 +43,12 @@ header h1, header h1 a {
     text-shadow: none;
 }
 
+#events header{
+    background-color: #636B61 !important;
+    color: white;
+
+}
+
 h2 {
     color: white !important;
 }
@@ -181,6 +187,7 @@ footer .link_menu ul li a{
     margin-right: auto;
     width: fit-content;
     margin-top: 3%;
+    color: white;
 }
 
 .button-previous, #step-up a.button-previous {
