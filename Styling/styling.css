@@ -21,6 +21,9 @@ main {
     background: #636B61;
     border-radius: 5px;
     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
 }
 
 header {
@@ -45,7 +48,7 @@ h2 {
 }
 
 #powered_by a, #site_name, body > header aside a:hover #site_name {
-    color: white !important;
+    color: #636B61 !important;
 }
 
 .select-service {
@@ -63,14 +66,24 @@ h2 {
 
 }
 
-footer .link_menu ul li a, #usermenu a {
+footer .link_menu ul li a{
     color: #636B61;
     letter-spacing: 0;
     font-family: Calibre, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    background: #636B61;
+    background: #636B61 !important;
+}
+
+#usermenu a{
+    color: #636B61;
+    letter-spacing: 0;
+    font-family: Calibre, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 
 #select-event {
