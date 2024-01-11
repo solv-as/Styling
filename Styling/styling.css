@@ -155,33 +155,25 @@ footer .link_menu ul li a, #usermenu a {
     background: none;
 }
 
-.person, .person p a, #information > a{
+.person, .person p a, #information > a, .person a{
     color: white;
 }
 
-@media (max-width: 600px) {
-    /*
-    header {
-        height: 5.5em !important;
-        background-color: #636B61 !important;
-        color: white;
-    }
+small{
+    color: white;
+}
 
-    header h1, header h1 a {
-        width: 96%;
-        margin-bottom: 10px;
-        font-family: sans-serif;
-        line-height: 96%;
-        color: white;
-        text-shadow: none;
+@media (min-width: 510px) {
+    #powered_by{
+        display: none;
     }
-    */
+}
 
+@media (min-width: 600px) {
     #select-event{
         max-width: 460px;
     }
 }
-
 
 
 /*
