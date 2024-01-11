@@ -6,7 +6,6 @@ body {
     color: white;
     display: flex;
     flex-direction: column
-
 }
 
 html, body {
@@ -109,10 +108,14 @@ footer .link_menu ul li a, #usermenu a {
     text-align: center;
 }
 
-#new_booking{
-    width: 100%;
+#information fieldset{
+    max-width: 100%;
 }
-#new_booking textarea{
+
+#information fieldset label input{
+    clear: both;
+}
+#booking_notes {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -122,6 +125,7 @@ footer .link_menu ul li a, #usermenu a {
     background-color: #f8f8f8;
     resize: none;
 }
+
 /*
 Background color same as page
 Ul green? or Li Green?
