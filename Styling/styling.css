@@ -380,12 +380,16 @@ footer .link_menu ul li a, #usermenu a {
 #information fieldset label {
     clear: both;
     width: 100%;
-
 }
 
 #information {
     width: 50%;
 }
+
+#information textarea{
+    width: 101%;
+}
+
 
 #booking_notes {
     width: 100% !important;
