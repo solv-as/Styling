@@ -69,7 +69,7 @@ footer .link_menu ul li a, #usermenu a {
     font-weight: 400;
 }
 
-#select-event{
+#select-event {
     display: flex;
     width: 100%;
     margin: auto;
@@ -139,7 +139,7 @@ footer .link_menu ul li a, #usermenu a {
     flex-direction: row-reverse
 }
 
-#step-up button, .button-previous{
+#step-up button, .button-previous {
     background: #e37d64;
     color: black;
     text-align: center;
@@ -151,26 +151,33 @@ footer .link_menu ul li a, #usermenu a {
 
 }
 
-#step-up button span{
+#step-up button span {
     background: none;
 }
 
-.person, .person p a, #information > a, .person a{
+.person, .person p a, #information > a, .person a {
     color: white;
 }
 
-small{
+small {
     color: white;
 }
 
-@media (min-width: 510px) {
-    #powered_by{
+@media (max-width: 510px) {
+    #powered_by {
         display: none;
     }
 }
 
+@media (min-width: 511px) {
+    #powered_by {
+        display: block;
+    }
+
+}
+
 @media (min-width: 600px) {
-    #select-event{
+    #select-event {
         max-width: 460px;
     }
 }
