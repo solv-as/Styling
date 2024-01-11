@@ -155,6 +155,7 @@ footer .link_menu ul li a, #usermenu a {
     padding: 10px;
     height: fit-content;
     margin: 3px;
+    text-shadow: none;
 
 }
 
