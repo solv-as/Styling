@@ -37,25 +37,6 @@ header h1, header h1 a {
     text-shadow: none;
 }
 
-@media (max-width: 516px) {
-    header {
-        height: 5.5em !important;
-        background-color: #636B61 !important;
-        color: white;
-    }
-
-    header h1, header h1 a {
-        width: 96%;
-        margin-bottom: 10px;
-        font-family: sans-serif;
-        line-height: 96%;
-        color: white;
-        text-shadow: none;
-
-    }
-
-}
-
 h2 {
     color: white !important;
 }
@@ -87,6 +68,17 @@ footer .link_menu ul li a, #usermenu a {
     font-style: normal;
     font-weight: 400;
 }
+
+#select-event{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 600px;
+}
+
 
 #select-event li {
     background: #e37d64 !important;
@@ -166,6 +158,28 @@ footer .link_menu ul li a, #usermenu a {
 .person, .person p a, #information > a{
     color: white;
 }
+
+@media (max-width: 516px) {
+    header {
+        height: 5.5em !important;
+        background-color: #636B61 !important;
+        color: white;
+    }
+
+    header h1, header h1 a {
+        width: 96%;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        line-height: 96%;
+        color: white;
+        text-shadow: none;
+    }
+
+    #select-event{
+        max-width: 460px;
+    }
+}
+
 
 /*
 Background color same as page
