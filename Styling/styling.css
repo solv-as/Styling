@@ -376,7 +376,10 @@ footer .link_menu ul li a, #usermenu a {
     float: none;
     width: 100%;
 }
-
+#information fieldset label{
+    width: 100%;
+    padding: 0px;
+}
 #information fieldset label {
     clear: both;
     width: 100%;
@@ -386,13 +389,10 @@ footer .link_menu ul li a, #usermenu a {
     width: 50%;
 }
 
-#information textarea{
-    width: 101%;
-}
-
-
 #booking_notes {
+    /*
     width: 100% !important;
+    */
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
