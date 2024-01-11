@@ -8,10 +8,6 @@ body {
     flex-direction: column
 }
 
-body > a{
-    color: white;
-}
-
 html, body {
     min-height: 100vh;
 }
@@ -151,9 +147,22 @@ footer .link_menu ul li a, #usermenu a {
     flex-direction: row-reverse
 }
 
-#step-up button, #step-up a{
+#step-up button, .button-previous{
     background: #e37d64;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
+
+#step-up button span{
+    background: none;
+}
+
 .person, .person p a, #information > a{
     color: white;
 }
