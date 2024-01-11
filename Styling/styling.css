@@ -73,7 +73,6 @@ footer .link_menu ul li a{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    background: #636B61 !important;
 }
 
 #usermenu a{
@@ -134,6 +133,7 @@ footer .link_menu ul li a{
 
 #information {
     width: 50%;
+    color: white;
 }
 
 #booking_notes {
