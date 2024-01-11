@@ -159,10 +159,10 @@ footer .link_menu ul li a, #usermenu a {
     color: white;
 }
 
-#information {
+section#information {
     margin-left: auto;
     margin-right: auto;
-    width: 96%;
+    width: fit-content;
 }
 
 small, label small {
