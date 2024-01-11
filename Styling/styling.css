@@ -142,7 +142,7 @@ footer .link_menu ul li a, #usermenu a {
     margin-right: auto;
 }
 
-#step-up small{
+#step-up small {
     color: white;
 }
 
@@ -152,14 +152,14 @@ footer .link_menu ul li a, #usermenu a {
     text-align: center;
     border-radius: 5px;
     font-size: 23px;
-    padding: 20px;
+    padding: 10px;
     margin-right: auto;
     margin-left: auto;
     height: fit-content;
 
 }
 
-.button-previous{
+.button-previous, #step-up a.button-previous {
     background: #e37d64;
     color: black;
     text-align: center;
@@ -167,6 +167,10 @@ footer .link_menu ul li a, #usermenu a {
     margin-right: auto;
     margin-left: auto;
     height: fit-content;
+}
+
+#step-up a.button-previous span {
+    background: none;
 }
 
 #step-up button span, .button-previous span {
