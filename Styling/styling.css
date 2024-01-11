@@ -163,20 +163,20 @@ small {
     color: white;
 }
 
-@media (max-width: 510px) {
+@media screen and (max-width: 510px) {
     #powered_by {
         display: none;
     }
 }
 
-@media (min-width: 511px) {
+@media screen and (min-width: 511px) {
     #powered_by {
         display: block;
     }
 
 }
 
-@media (min-width: 600px) {
+@media screen and  (min-width: 600px) {
     #select-event {
         max-width: 460px;
     }
