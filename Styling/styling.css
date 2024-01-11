@@ -155,7 +155,7 @@ footer .link_menu ul li a, #usermenu a {
     background: none;
 }
 
-.person, .person p a, #information > a, .person a {
+.person, .person p a, #information p a, .person a {
     color: white;
 }
 
