@@ -148,11 +148,14 @@ footer .link_menu ul li a, #usermenu a {
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
+    height: fit-content;
 
 }
 
 #step-up button span {
     background: none;
+    padding-right: 1px;
+    padding-left: 1px;
 }
 
 .person, .person p a, #information p a, .person a {
