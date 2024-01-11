@@ -160,6 +160,7 @@ footer .link_menu ul li a, #usermenu a {
 }
 
 @media (max-width: 600px) {
+    /*
     header {
         height: 5.5em !important;
         background-color: #636B61 !important;
@@ -174,11 +175,13 @@ footer .link_menu ul li a, #usermenu a {
         color: white;
         text-shadow: none;
     }
+    */
 
     #select-event{
         max-width: 460px;
     }
 }
+
 
 
 /*
