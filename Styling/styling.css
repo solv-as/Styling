@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 
-header h1, header h1 a{
+header h1, header h1 a {
     width: 96%;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -21,14 +21,14 @@ header h1, header h1 a{
     color: white;
 }
 
-@media (max-width: 516px){
+@media (max-width: 516px) {
     header {
         height: 5.5em !important;
         background-color: #636B61 !important;
         color: white;
     }
 
-    header h1, header h1 a{
+    header h1, header h1 a {
         width: 96%;
         margin-bottom: 10px;
         font-family: sans-serif;
@@ -38,15 +38,16 @@ header h1, header h1 a{
 
 }
 
-h2{
-    color:white !important;
+h2 {
+    color: white !important;
 }
-#powered_by a, #site_name, body > header aside a:hover #site_name{
+
+#powered_by a, #site_name, body > header aside a:hover #site_name {
     color: white !important;
 }
 
 .select-service {
-    background: #636B61;
+    background-color: #636B61;
 }
 
 #services ul li a {
@@ -68,8 +69,8 @@ footer .link_menu ul li a, #usermenu a {
     font-weight: 400;
 }
 
-#select-event li{
-    background-color: #e37d64 !important;
+#select-event li {
+    background: #e37d64 !important;
     color: black;
     text-align: center;
     border-radius: 5px;
@@ -80,6 +81,10 @@ footer .link_menu ul li a, #usermenu a {
 #usermenu {
     width: 96%;
     max-width: 69em;
+}
+
+body.c_services.a_slots .intervals li .interval {
+    background-color: red;
 }
 
 /*
