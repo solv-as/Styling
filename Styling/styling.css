@@ -159,9 +159,11 @@ footer .link_menu ul li a, #usermenu a {
 
 }
 
-#events p{
+#events p {
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
+    margin-top: 3%;
 }
 
 .button-previous, #step-up a.button-previous {
