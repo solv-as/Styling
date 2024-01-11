@@ -146,6 +146,9 @@ footer .link_menu ul li a, #usermenu a {
     align-items: center;
 }
 
+#step-up button, #step-up a{
+    background: #e37d64;
+}
 
 /*
 Background color same as page
