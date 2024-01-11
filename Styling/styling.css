@@ -154,7 +154,8 @@ footer .link_menu ul li a, #usermenu a {
     font-size: 23px;
     padding: 10px;
     height: fit-content;
-    margin: 3px
+    margin: 3px;
+
 }
 
 #events p{
@@ -168,11 +169,14 @@ footer .link_menu ul li a, #usermenu a {
     text-align: center;
     border-radius: 5px;
     height: fit-content;
-    margin: 3px
+    margin: 3px;
+    text-shadow: none;
 }
 
 #step-up a.button-previous span {
     background: none;
+    text-shadow: none;
+
 }
 
 #step-up button span, .button-previous span {
