@@ -113,7 +113,8 @@ footer .link_menu ul li a, #usermenu a {
 }
 
 #information fieldset label input{
-    clear: both;
+    float: none;
+    width: 100%;
 }
 #booking_notes {
     width: 100%;
